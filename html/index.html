@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>The Book Orchard</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="http://localhost/orchard/the_book_orchard/css/styles.css">
+  
+
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>   
+
+</head>
+
+
+<body id="homePage" data-spy="scroll" data-target=".navbar">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#homePage">The Book Orchard</a>
+    </div>
+    <div class="collapse navbar-collapse" id="navbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#homePage">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#books">BOOKS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div id="carousel" class="carousel slide" data-ride="carousel">
+    
+    <ol class="carousel-indicators">
+      <li data-target="#carousel" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel" data-slide-to="1"></li>
+      <li data-target="#carousel" data-slide-to="2"></li>
+    </ol>
+
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="http://localhost/orchard/the_book_orchard/images\first_slide_image.jpeg" alt="bookshop interior" width="1200" height="700">
+        <div class="carousel-caption">
+          <h3>THE NEW AND IMPROVED MODERN BOOKSHOP AND TEAHOUSE IN TIMISOARA</h3>
+          <br>
+        </div>      
+      </div>
+
+      <div class="item">
+        <img src="http://localhost/orchard/the_book_orchard/images\second_slide_image.jpg" alt="bookshelf" width="1200" height="700">
+        <div class="carousel-caption">
+          <h3>A FREQUENTLY-UPDATED WIDE VARIETY OF BOOKS TO PLEASE EVERYONE</h3>
+          <br>
+        </div>      
+      </div>
+    
+      <div class="item">
+        <img src="http://localhost/orchard/the_book_orchard/images\third_slide_picture.jpg" alt="Timisoara's cathedral" width="1200" height="700">
+        <div class="carousel-caption">
+          <h3>SITUATED IN THE HEART OF THE CITY, YOU'LL BE SURE TO FIND IT</h3>
+          <br>
+        </div>      
+      </div>
+    </div>
+
+    <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    </a>
+
+    <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> 
+    </a>
+</div>
+
+
+<div id="about" class="container">
+  <div id="alternative">
+    <p>About us</p>
+    <br>
+    <h6>We are a team of students who recently graduated computer science. We don't really have any expertise in the field of literature, just a burning passion for it shared amongst ourselves!</h6>
+    <h6>This being said, one thing we grasped in college is research, so we did a lot of that to make sure that we don't go head-first into something we can't mantain .</h6>
+    <h6>Despite our main common interest, our love for books is but a foundation for our main intentions regarding this project.</h6>
+    <h6>We gave shape to this idea with the aim of sharing this art with everyone and keeping literature relevant in a time when it could easily fall off .</h6>
+  </div>
+  <div class="cover">
+    <div class="book">
+    <label for="page-1"  class="book__page book__page--1">
+      <img src="http://localhost/orchard/the_book_orchard/images\book_cover.jpg" alt="book cover">
+    </label>
+    
+    <label for="page-2" class="book__page book__page--4">
+      <div class="page__content">
+        <h1 class="page__content-title">Our Mission</h1>
+        <div class="page__content-blockquote">
+          <p class="page__content-blockquote-text">Despite our main common interest, our love for books is but a foundation for our main intentions regarding this project. </p>
+          <p class="page__content-blockquote-text">We gave shape to this idea with the aim of sharing this art with everyone and keeping literature relevant in a time when it could easily fall off .</p>
+        </div>
+        <div class="page__number">3</div>
+      </div>
+    </label>
+      
+    <input type="radio" name="page" id="page-1"/>
+      
+    <input type="radio" name="page" id="page-2"/>
+    <label class="book__page book__page--2">
+      <div class="book__page-front">
+        <div class="page__content">
+          <br><br><br><br>
+          <h2 class="page__content-author">ABOUT US</h2>
+          
+          <div class="page__content-copyright">
+            <p>The Book Orchard</p>
+          </div>
+        </div>
+      </div>
+      <div class="book__page-back">
+        <div class="page__content">
+          <h1 class="page__content-title">Background</h1>
+          <div class="page__content-blockquote">
+            <p class="page__content-blockquote-text">We are a team of students who recently graduated computer science. We don't really have any expertise in the field of literature, just a burning passion for it shared amongst ourselves!</p>
+            <p class="page__content-blockquote-text">This being said, one thing we grasped in college is research, so we did a lot of that to make sure that we don't go head-first into something we can't mantain .</p>
+          </div>
+          <div class="page__number">2</div>
+        </div>
+      </div>
+    </label>
+  </div>
+  </div>
+</div>
+
+<div id="books" class="bg-1">
+  <div class="container">
+    <h3 class="text-center">Some of our books</h3>
+    <p class="text-center">Here you can find a small example of the books that we have to offer. For a limited time, you can order these books directly and we'll deliver them to you! For the rest of our large repertoire, pay us a visit!</p>
+    <input class="form-control" id="searchbar" type="text" placeholder="Search..">
+    <br>
+    <div id="booklist" class="row text-center">
+      <div class="col-sm-4" id="bookbook">
+        <div class="thumbnail">
+          <img src="http://localhost/orchard/the_book_orchard/images\book_1.jpg" alt="Paris" width="400" height="300">
+          <p><strong>Shantaram-Gregory David Roberts</strong></p>
+          <p>60 RON</p>
+          <button class="btn" data-toggle="modal" data-target="#popModal">Order Book</button>
+        </div>
+      </div>
+      <div class="col-sm-4" id="bookbook">
+        <div class="thumbnail">
+          <img src="http://localhost/orchard/the_book_orchard/images\book_2.jpeg" alt="Paris" width="400" height="300">
+          <p><strong>Monte Cassino-Sven Hassel</strong></p>
+          <p>35 RON</p>
+          <button class="btn" data-toggle="modal" data-target="#popModal">Order Book</button>
+        </div>
+      </div>
+      <div class="col-sm-4" id="bookbook">
+        <div class="thumbnail">
+          <img src="http://localhost/orchard/the_book_orchard/images\book_3.jpg" alt="Paris" width="400" height="300">
+          <p><strong>The Castle-Franz Kafka</strong></p>
+          <p>40 RON</p>
+          <button class="btn" data-toggle="modal" data-target="#popModal">Order Book</button>
+        </div>
+      </div>
+      <div class="col-sm-4" id="bookbook">
+        <div class="thumbnail">
+          <img src="http://localhost/orchard/the_book_orchard/images\book_4.jpg" alt="Paris" width="400" height="300">
+          <p><strong>Fahrenheit 451-Ray Bradbury</strong></p>
+          <p>50 RON</p>
+          <button class="btn" data-toggle="modal" data-target="#popModal">Order Book</button>
+        </div>
+      </div>
+      <div class="col-sm-4" id="bookbook">
+        <div class="thumbnail">
+          <img src="http://localhost/orchard/the_book_orchard/images\book_5.jpeg" alt="Paris" width="400" height="300">
+          <p><strong>Spam Nation-Brian Kerbs</strong></p>
+          <p>55 RON</p>
+          <button class="btn" data-toggle="modal" data-target="#popModal">Order Book</button>
+        </div>
+      </div>
+      <div class="col-sm-4" id="bookbook">
+        <div class="thumbnail">
+          <img src="http://localhost/orchard/the_book_orchard/images\book_6.jpg" alt="Paris" width="400" height="300">
+          <p><strong>Solaris-Stanislav Lem</strong></p>
+          <p>30 RON</p>
+          <button class="btn" data-toggle="modal" data-target="#popModal">Order Book</button>
+        </div>
+      </div>
+      <div class="col-sm-4" id="bookbook">
+        <div class="thumbnail">
+          <img src="http://localhost/orchard/the_book_orchard/images\book_7.jpg" alt="Paris" width="400" height="300">
+          <p><strong>CS Distilled-Wladston Ferreira</strong></p>
+          <p>110 RON</p>
+          <button class="btn" data-toggle="modal" data-target="#popModal">Order Book</button>
+        </div>
+      </div>
+      <div class="col-sm-4" id="bookbook">
+        <div class="thumbnail">
+          <img src="http://localhost/orchard/the_book_orchard/images\book_8.jpeg" alt="Paris" width="400" height="300">
+          <p><strong>The Lean Startup-Eric Ries</strong></p>
+          <p>60 RON</p>
+          <button class="btn" data-toggle="modal" data-target="#popModal">Order Book</button>
+        </div>
+      </div>
+      <div class="col-sm-4" id="bookbook">
+        <div class="thumbnail">
+          <img src="http://localhost/orchard/the_book_orchard/images\book_9.jpg" alt="Paris" width="400" height="300">
+          <p><strong>The Ring-Koji Suzuki</strong></p>
+          <p>25 RON</p>
+          <button class="btn" data-toggle="modal" data-target="#popModal">Order Book</button>
+        </div>
+      </div>
+      <div class="col-sm-4" id="bookbook">
+        <div class="thumbnail">
+          <img src="http://localhost/orchard/the_book_orchard/images\book_10.jpg" alt="Paris" width="400" height="300">
+          <p><strong>Haruki Murakami-Norwegian Wood</strong></p>
+          <p>25 RON</p>
+          <button class="btn" data-toggle="modal" data-target="#popModal">Order Book</button>
+        </div>
+      </div>
+      <div class="col-sm-4" id="bookbook">
+        <div class="thumbnail">
+          <img src="http://localhost/orchard/the_book_orchard/images\book_11.jpg" alt="Paris" width="400" height="300">
+          <p><strong>The Rules of Work-Richard Templar</strong></p>
+          <p>60 RON</p>
+          <button class="btn" data-toggle="modal" data-target="#popModal">Order Book</button>
+        </div>
+      </div>
+      <div class="col-sm-4" id="bookbook">
+        <div class="thumbnail">
+          <img src="http://localhost/orchard/the_book_orchard/images\book_12.jpg" alt="Paris" width="400" height="300">
+          <p><strong>Mountain Shadow-Gregory David Roberts</strong></p>
+          <p>60 RON</p>
+          <button class="btn" data-toggle="modal" data-target="#popModal">Order Book</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  <div class="modal fade" id="popModal" role="dialog">
+    <div class="modal-dialog">
+    
+      
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">×</button>
+          <h4><span class="glyphicon glyphicon-shopping-cart"></span>Your Order</h4>
+        </div>
+        <div class="modal-body">
+          <form action="insertcode.php" method="POST" role="form">
+            <div class="form-group">
+              <label for="amt"><span class="glyphicon glyphicon-book"></span> Amount of books you would like to order</label>
+              <input type="number" name="bookAmount" class="form-control" id="amt" placeholder="How many?">
+            </div>
+            <div class="form-group">
+              <label for="ml"><span class="glyphicon glyphicon-envelope"></span> Email for further payment details</label>
+              <input type="text" name="customerEmail" class="form-control" id="ml" placeholder="Enter email">
+            </div>
+              <button type="submit" name="savedata" class="btn btn-block">Place Order 
+                <span class="glyphicon glyphicon-ok"></span>
+              </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="contact" class="container">
+  <h3 class="text-center">Contact</h3>
+  <p class="text-center"><em>Let us know what additions/tweaks we should consider to make everyone's experince a more fulfilling one!</em></p>
+  <br>
+  <div class="row">
+    <div class="col-md-4">
+      <p><span class="glyphicon glyphicon-map-marker"></span>Timisoara, Romania</p>
+      <p><span class="glyphicon glyphicon-phone"></span>Phone: +40727111000</p>
+      <p><span class="glyphicon glyphicon-envelope"></span>Email: the_book_orchard@gmail.com</p>
+    </div>
+    <div class="col-md-8">
+      <form action="insertsuggestion.php" method="POST" role="form">
+        <div class="form-group">
+          <label for="amt">Name</label>
+          <input type="text" name="suggestionName" class="form-control" id="amt" placeholder="Enter first name">
+        </div>
+        <div class="form-group">
+          <label for="ml">Email</label>
+          <input type="text" name="suggestionEmail" class="form-control" id="ml" placeholder="Enter email">
+        </div>
+        <div class="form-group">
+          <label for="sg">Suggestion</label>
+          <input type="text" name="suggestionComment" class="form-control" id="sg" placeholder="Write your suggestion">
+        </div>
+          <button type="submit" name="savesugg" class="btn btn-block">Send 
+            <span class="glyphicon glyphicon-ok"></span>
+          </button>
+      </form>
+    </div>
+  </div>
+  <br>
+  
+</div>
+
+<footer class="text-center">
+  <a class="up-arrow" href="#homePage" data-toggle="tooltip" title="">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a><br><br> 
+</footer>
+
+<script>
+$(document).ready(function(){
+
+  $("#searchbar").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#bookbook div ").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+ 
+  
+  $(".navbar a, footer a[href='#homePage']").on('click', function(event) {
+
+    if (this.hash !== "") {
+
+      event.preventDefault();
+
+      var hash = this.hash;
+
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        window.location.hash = hash;
+      });
+    } 
+  });
+
+})
+</script>
+
+</body>
+</html>
